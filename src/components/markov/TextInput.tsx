@@ -45,8 +45,9 @@ const TextInput: React.FC<TextInputProps> = ({ onTextSubmit }) => {
       const text = await readFileAsText(file)
       setInputText(text)
       setIsUploading(false)
-    } catch (_error) {
+    } catch (error) {
       setUploadError("文件读取失败，请重试")
+      console.log(error)
       setIsUploading(false)
     }
   }

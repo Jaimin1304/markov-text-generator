@@ -37,7 +37,7 @@ export default function Home() {
             马尔可夫链胡话生成器
           </h1>
           <p className="text-gray-600">
-            上传或输入文本，使用马尔可夫链技术生成有趣的"胡话"内容
+            上传或输入文本，使用马尔可夫链技术生成有趣的&quot;胡话&quot;内容
           </p>
         </div>
 

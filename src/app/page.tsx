@@ -8,7 +8,7 @@ import MarkovGenerator from "@/components/markov/MarkovGenerator"
 export default function Home() {
   const [inputText, setInputText] = useState<string>("")
   const [generatedText, setGeneratedText] = useState<string>("")
-  const [isGenerating, setIsGenerating] = useState<boolean>(false)
+  const [, setIsGenerating] = useState<boolean>(false)
   const [error, setError] = useState<string>("")
 
   // 处理文本输入

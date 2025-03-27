@@ -102,7 +102,7 @@ export default class MarkovChain {
       this.startStates[Math.floor(Math.random() * this.startStates.length)]
 
     // 将起始状态分解为词元
-    let result = currentState.split(" ")
+    const result = currentState.split(" ")
 
     // 生成指定长度的文本
     for (let i = 0; i < length; i++) {
